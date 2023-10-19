@@ -1,0 +1,22 @@
+/* style.css */
+:root {
+    --clr-bg-900: hsl(0, 2%, 10%);
+    --clr-bg-100: hsl(0, 0%, 100%);
+    --clr-primary-900: hsl(200, 100%, 1%);
+    --clr-primary-100: hsl(0, 0%, 100%);
+}
+
+canvas {
+    border: 1px solid;
+    border-radius: 5px;
+    image-rendering: optimizeQuality;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.black-card {
+    background-color: var(--clr-bg-900);
+    color: var(--clr-primary-100);
+}
